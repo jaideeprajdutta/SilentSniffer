@@ -2,11 +2,11 @@
   "name": "silentsniffer",
   "version": "2.5.0",
   "type": "module",
-  "description": "Professional Geolocation Utility Library",
+  "description": "Educational Browser Security Diagnostic Sandbox by Jaideep Raj",
+  "author": "Jaideep Raj",
   "scripts": {
-    "start": "npm run build:css && browser-sync start --server --files 'dist/*.css, *.html, src/*.js' --no-notify",
-    "debug": "npm run build:css && browser-sync start --server --startPath debug.html --files 'dist/*.css, *.html, src/*.js' --no-notify",
-    "build:css": "tailwindcss -i ./src/input.css -o ./dist/output.css"
+    "start": "browser-sync start --server --files '*.html, src/**/*.js, src/**/*.html, src/**/*.json' --no-notify",
+    "debug": "browser-sync start --server --startPath debug.html --files '*.html, src/**/*.js, src/**/*.html, src/**/*.json' --no-notify"
   },
   "devDependencies": {
     "browser-sync": "^3.0.0",

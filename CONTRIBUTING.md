@@ -1,6 +1,6 @@
-# Contributing to Pinpoint
+# Contributing to SilentSniffer
 
-Thank you for your interest in contributing to Pinpoint! As a modular utility library, we value clean, well-documented code.
+Thank you for your interest in contributing to SilentSniffer! As a modular utility library, we value clean, well-documented code.
 
 ## How to Contribute
 1. **Modules**: If you are adding a new acquisition module, place it in `src/` and ensure it follows the Promise-based pattern.
